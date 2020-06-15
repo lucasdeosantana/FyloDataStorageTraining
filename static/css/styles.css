@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--gradient-Blue);
+
+}
+:root{
+    --pale-Blue: hsl(243, 100%, 93%);
+    --grayish-Blue: hsl(229, 7%, 55%);
+    --dark-Blue: hsl(228, 56%, 26%);
+    --very-Dark-Blue: hsl(229, 57%, 11%);
+    --gradient:linear-gradient(hsl(6, 100%, 80%) ,hsl(335, 100%, 65%))
+}
+body{
+    background-color: var(--very-Dark-Blue);
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    height: 96vh;
+}
+.icons-container{
+    width: 300px;
+    height: 150px;
+    background-color:var(--dark-Blue);
+    margin-right: 50px;
+    margin-top: 19%;
+    -webkit-border-radius: 15px;
+    -webkit-border-top-right-radius: 90px;
+    -moz-border-radius: 15px;
+    -moz-border-radius-topright: 90px;
+    border-radius: 15px;
+    border-top-right-radius: 90px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.information-container{
+    background-color:var(--dark-Blue);
+    width: 200px;
+    height: 150px;
+    margin-top: 19%;
+}
+.attribution{
+    height: 4vh;
+}
+#background{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    height: auto;
+    width: auto;
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:  99.5%;
+    height: 50%;
+    z-index: -10;
+}
+.icons{
+    padding-top: 20px;
+    display: flex;
+}
+.icons-container .logo{
+    padding-left: 14px;
+}
+.icon-container{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: var(--very-Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
